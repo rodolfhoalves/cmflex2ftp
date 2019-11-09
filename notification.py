@@ -7,9 +7,9 @@ def send_mail():
     mail_content = '''Arquivos enviados para o BI com sucesso - ITECNOVE'''
 
     #The mail addresses and password
-    sender_address = 'directionsystems@gmail.com'
-    sender_pass = 'JgT9!H!C0NhNw@3yG2f3#*8vYrIGiAQl4rJgdb%9f0qKWVON&j3#gqedMejw#3QXQEH$vy5%#lDwFI@NBg$fp0U@*O2RgRZ%T!r!'
-    receiver_address = 'rodolfho.queiroz@ponteshoteis.com.br'
+    sender_address = 'from@email.com'
+    sender_pass = 'Password!'
+    receiver_address = 'contato@email.com'
     #Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
