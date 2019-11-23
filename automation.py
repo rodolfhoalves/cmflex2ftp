@@ -5,8 +5,8 @@ import datetime
 import calendar
 from selenium.webdriver.common.action_chains import ActionChains
 
-username = 'rodolfho.queiroz'
-password = 'Pontes@1234'
+username = 'usuário'
+password = 'senha'
 
 ### Gera as datas 
 ano_atual = datetime.datetime.now().year
